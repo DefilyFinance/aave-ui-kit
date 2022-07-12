@@ -704,6 +704,21 @@ export const assetsList: Asset[] = [
     icon: icons.ust,
     aIcon: aIcons.ust,
   },
+
+  // bnb
+  {
+    name: 'BNB',
+    symbol: 'BNB',
+    color: '#f3ba2f',
+    icon: icons.bnb,
+    aIcon: aIcons.abnb,
+  },
+  {
+    name: 'Wrapped BNB',
+    symbol: 'WBNB',
+    color: '#f3ba2f',
+    icon: icons.bnb,
+  },
 ];
 
 export const getAssetInfoFactory = (_assetsList: Asset[]) => (_assetSymbol: string): Asset => {

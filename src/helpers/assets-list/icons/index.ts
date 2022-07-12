@@ -51,6 +51,7 @@ import sushi from './sushi.svg';
 import steth from './steth.svg';
 import ens from './ens.svg';
 import ust from './ust.svg';
+import bnb from './bnb.svg';
 
 interface Images {
   [name: string]: string;
@@ -110,4 +111,5 @@ export default {
   steth,
   ens,
   ust,
+  bnb,
 } as Images;
